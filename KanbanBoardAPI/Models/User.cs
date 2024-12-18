@@ -1,6 +1,8 @@
-﻿namespace KanbanBoardAPI.Models
+﻿using KanbanBoardAPI.Interfaces;
+
+namespace KanbanBoardAPI.Models
 {
-    public class User
+    public class User : IHaveId
     {
         public int Id { get; set; }
 

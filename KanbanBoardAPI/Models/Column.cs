@@ -1,6 +1,8 @@
-﻿namespace KanbanBoardAPI.Models
+﻿using KanbanBoardAPI.Interfaces;
+
+namespace KanbanBoardAPI.Models
 {
-    public class Column
+    public class Column: IHaveId
     {
         public int Id { get; set; }
 

@@ -1,8 +1,9 @@
-﻿using System.Data.Common;
+﻿using KanbanBoardAPI.Interfaces;
+using System.Data.Common;
 
 namespace KanbanBoardAPI.Models
 {
-    public class Task
+    public class Task : IHaveId
     {
         public int Id { get; set; }
 
